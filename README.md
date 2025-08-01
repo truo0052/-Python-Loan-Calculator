@@ -30,3 +30,8 @@ Calculate Annuity Payment:
 ```sh
 python filename.py --type=annuity --principal=1000000 --periods=60 --interest=10
 ```
+
+Calculate Repayment Loan:
+```sh
+python filename.py --type=annuity --principal=500000 --payment=23000 --interest=7.8
+```
