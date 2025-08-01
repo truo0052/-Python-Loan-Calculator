@@ -17,3 +17,16 @@
 
 
 ## Installation
+## Command Line Examples
+
+Loan Calculator requires [Python](https://www.python.org/downloads/) v3+ to run.
+
+Calculate Differentiated Payments
+```sh
+python filename.py --type=diff --principal=1000000 --periods=10 --interest=10 
+```
+
+Calculate Annuity Payment:
+```sh
+python filename.py --type=annuity --principal=1000000 --periods=60 --interest=10
+```
