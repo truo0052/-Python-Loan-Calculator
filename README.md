@@ -27,11 +27,11 @@
 4. **Run the script using the command line examples below** or through your IDE's terminal/console
 
 ## Command Line Examples
-LoanCalculator Help Interface
+Loan Calculator Help Interface
 ```sh
 python LoanCalculator.py -help
 ```
-
+<img width="700" height="300" alt="help_option" src="https://github.com/user-attachments/assets/a240e84a-2d6a-4168-95e4-863f4dd83ade" />
 
 Calculate Differentiated Payments
 ```sh
