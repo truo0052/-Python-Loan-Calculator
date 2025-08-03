@@ -17,21 +17,34 @@
 
 
 ## Installation
-## Command Line Examples
+1. **Download or clone the repository** to your local machine
+2. **Open the project in your preferred IDE:**
+   - **PyCharm**: File → Open → Select the project folder
+   - **VS Code**: File → Open Folder → Select the project folder  
+   - **Any other IDE**: Open the project folder containing the Python script
 
-Loan Calculator requires [Python](https://www.python.org/downloads/) v3+ to run.
+3. **Ensure Python 3+ is installed** on your system. You can download it from [Python.org](https://www.python.org/downloads/)
+4. **Run the script using the command line examples below** or through your IDE's terminal/console
+
+## Command Line Examples
+LoanCalculator Help Interface
+```sh
+python LoanCalculator.py -help
+```
+
 
 Calculate Differentiated Payments
 ```sh
-python filename.py --type=diff --principal=1000000 --periods=10 --interest=10 
+python LoanCalculator.py --type=diff --principal=1000000 --periods=10 --interest=10 
 ```
 
 Calculate Annuity Payment:
 ```sh
-python filename.py --type=annuity --principal=1000000 --periods=60 --interest=10
+python LoanCalculator.py --type=annuity --principal=1000000 --periods=60 --interest=10
 ```
 
 Calculate Repayment Loan:
 ```sh
-python filename.py --type=annuity --principal=500000 --payment=23000 --interest=7.8
+python LoanCalculator.py --type=annuity --principal=500000 --payment=23000 --interest=7.8
 ```
+
